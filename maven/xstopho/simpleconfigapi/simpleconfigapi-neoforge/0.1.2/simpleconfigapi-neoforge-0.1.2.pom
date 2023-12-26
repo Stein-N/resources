@@ -4,7 +4,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>xstopho.simpleconfigapi</groupId>
   <artifactId>simpleconfigapi-neoforge</artifactId>
-  <version>0.1.1</version>
+  <version>0.1.2</version>
   <name>Simple Config API</name>
   <description>Simple Config API that is used like the Neo-/Forge config system.</description>
   <licenses>
