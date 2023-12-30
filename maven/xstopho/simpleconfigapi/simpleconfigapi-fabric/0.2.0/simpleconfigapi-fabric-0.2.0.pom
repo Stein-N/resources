@@ -5,7 +5,7 @@
 
   <groupId>xstopho.simpleconfigapi</groupId>
   <artifactId>simpleconfigapi-fabric</artifactId>
-  <version>0.1.2</version>
+  <version>0.2.0</version>
   <name>Simple Config API</name>
   <description>Simple Config API that is used like the Neo-/Forge config system.</description>
 
