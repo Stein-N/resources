@@ -36,11 +36,11 @@
         {
           "name": "resourceconfigapi-fabric-1.20.5+1.0.0.jar",
           "url": "resourceconfigapi-fabric-1.20.5+1.0.0.jar",
-          "size": 437065,
-          "sha512": "53347a4cb4574373aa7209ed740d4c5c6d0ae36d779a138a573c3d3354d97840c9db5b83aeb3df554c82eec6429f5ffe12844d616dd3ab7dc6d284eb001e8c4e",
-          "sha256": "5b7a7ff25e116d62c9b27c2b4718d1d85d4e42886bf8ed417cea2925fc41af6b",
-          "sha1": "6f31b6e95bfb94e0f612014b97c74a91a6b4c0c2",
-          "md5": "cc12b8d1cdf4fb90dfaa2c40602db634"
+          "size": 437059,
+          "sha512": "c1f78d380b7e64c7d0259e26d4d82e68bee667a409be164dace74bd20470349040ef0fa29c46bc0d69b4dbd6497a06827afe493360a1a3895a7e12b245c96697",
+          "sha256": "560e1ba3fb8cee367fcaaf44a1b43a89e44befd9bd83d8fb416190268d7cb80b",
+          "sha1": "62e7cc8ac080ac98b36ebd125c76de9f1a158413",
+          "md5": "9adf717c529bff0a7781723abfb2f13d"
         }
       ]
     },
@@ -80,11 +80,11 @@
         {
           "name": "resourceconfigapi-fabric-1.20.5+1.0.0.jar",
           "url": "resourceconfigapi-fabric-1.20.5+1.0.0.jar",
-          "size": 437065,
-          "sha512": "53347a4cb4574373aa7209ed740d4c5c6d0ae36d779a138a573c3d3354d97840c9db5b83aeb3df554c82eec6429f5ffe12844d616dd3ab7dc6d284eb001e8c4e",
-          "sha256": "5b7a7ff25e116d62c9b27c2b4718d1d85d4e42886bf8ed417cea2925fc41af6b",
-          "sha1": "6f31b6e95bfb94e0f612014b97c74a91a6b4c0c2",
-          "md5": "cc12b8d1cdf4fb90dfaa2c40602db634"
+          "size": 437059,
+          "sha512": "c1f78d380b7e64c7d0259e26d4d82e68bee667a409be164dace74bd20470349040ef0fa29c46bc0d69b4dbd6497a06827afe493360a1a3895a7e12b245c96697",
+          "sha256": "560e1ba3fb8cee367fcaaf44a1b43a89e44befd9bd83d8fb416190268d7cb80b",
+          "sha1": "62e7cc8ac080ac98b36ebd125c76de9f1a158413",
+          "md5": "9adf717c529bff0a7781723abfb2f13d"
         }
       ]
     },
@@ -100,11 +100,11 @@
         {
           "name": "resourceconfigapi-fabric-1.20.5+1.0.0-sources.jar",
           "url": "resourceconfigapi-fabric-1.20.5+1.0.0-sources.jar",
-          "size": 185478,
-          "sha512": "de0da3332acd4e8a49d3ea6b0a608893abc5f4e4c12d20703149df91343d00294f5fa4cb20404148da788270e600e8aba3c6eb6bb1630019c7426b9632a570ce",
-          "sha256": "0c61140f3a5e12e9126b41a42e686e14d1e85836c86a70735470fcccc7f4783b",
-          "sha1": "3b265493e72abbeb637e4657d2dd8d6c77c7537e",
-          "md5": "09a30c2223466b4de57777f505d58517"
+          "size": 185475,
+          "sha512": "2d57bf9ea5b56ac8c5b92dd3b9111a43966e5c26f312b5480235d40074e7101e90cff2fe43349b2019ffa9a314a64c1ccf9b871ce08beaf958f436cd408536e9",
+          "sha256": "027a56d2e40f99aeb104de2599ad599d02e16d74e6687905da69c8b16b631d34",
+          "sha1": "a86fea3f3ee55cb2953448604e493214003f84ab",
+          "md5": "3bdf4248eb1fa18bcba38eaea27fa4bc"
         }
       ]
     },
@@ -121,10 +121,10 @@
           "name": "resourceconfigapi-fabric-1.20.5+1.0.0-javadoc.jar",
           "url": "resourceconfigapi-fabric-1.20.5+1.0.0-javadoc.jar",
           "size": 174280,
-          "sha512": "40fd66c546751ed888c2d3706253859e68f777aa38ba18edfa4d3c6d8fe3a3ef12f2e7563a02719ed429282247ac9706a79ec6f43be9806e08bc46718e918d47",
-          "sha256": "53de35c5002e32bcfa4fc20f351b1130f0fd43db60c22f91ffb88104fedf2137",
-          "sha1": "ad7a7884c38167bb975e919d0d6bf7da5e836f7f",
-          "md5": "1f307e2fe9fd030f604c9d8cba0b3a04"
+          "sha512": "703e0fcd5df7f0225f657f13297f0b726a6ffebccff0fc833805002ac7d8370e84d4ad0f40d5765e2d14e5a6945d3e247f47f78095265944bd8baf8310dc1c80",
+          "sha256": "65ad514b86d8183a77ec6bfe3630954dace55af3a9ddc068cb31d978abfa537b",
+          "sha1": "c85baa7ad2718ab37d09ac59c9bb3a7f112106c3",
+          "md5": "4d629d1d3d97d92f946839a4f86d0a42"
         }
       ]
     }
