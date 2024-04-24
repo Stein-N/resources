@@ -28,10 +28,10 @@
           "name": "resourceconfigapi-neoforge-1.20.5+1.0.0.jar",
           "url": "resourceconfigapi-neoforge-1.20.5+1.0.0.jar",
           "size": 192313,
-          "sha512": "fe50464a2ed882b2edaee8b171b2c3413b139df7043eae432724bd0d7b98aacab841479f4c6ee1dfd6154e8b36d280ba9c1bedd2970126038e2d2551f0766a96",
-          "sha256": "224ba3bab830e4900de7fbdfd1c9929e134b2dff8424875ccb72265e05c586d4",
-          "sha1": "a8fcabc7b04d621243a9c9de24120160b202fa2c",
-          "md5": "c5f67f85e2e29631a560e1d38f6a8dec"
+          "sha512": "102e145a027886d5dcb18fadc2bc8bcf781017e268168f5828d826ec436d2d4adb09fa4b6d894823d7fc7dfc941af7a5b2d312ea47288825fb7a9614df18ed4d",
+          "sha256": "efbd131484c1a93f646a7080662462c2bd79f6ea999d670139201f4aa91a72bc",
+          "sha1": "1028c0ed66d2e9f5f523bde3de2f5e1e523daae9",
+          "md5": "0a7a86cfbc767c46375b07183ec741ed"
         }
       ]
     },
@@ -49,10 +49,10 @@
           "name": "resourceconfigapi-neoforge-1.20.5+1.0.0.jar",
           "url": "resourceconfigapi-neoforge-1.20.5+1.0.0.jar",
           "size": 192313,
-          "sha512": "fe50464a2ed882b2edaee8b171b2c3413b139df7043eae432724bd0d7b98aacab841479f4c6ee1dfd6154e8b36d280ba9c1bedd2970126038e2d2551f0766a96",
-          "sha256": "224ba3bab830e4900de7fbdfd1c9929e134b2dff8424875ccb72265e05c586d4",
-          "sha1": "a8fcabc7b04d621243a9c9de24120160b202fa2c",
-          "md5": "c5f67f85e2e29631a560e1d38f6a8dec"
+          "sha512": "102e145a027886d5dcb18fadc2bc8bcf781017e268168f5828d826ec436d2d4adb09fa4b6d894823d7fc7dfc941af7a5b2d312ea47288825fb7a9614df18ed4d",
+          "sha256": "efbd131484c1a93f646a7080662462c2bd79f6ea999d670139201f4aa91a72bc",
+          "sha1": "1028c0ed66d2e9f5f523bde3de2f5e1e523daae9",
+          "md5": "0a7a86cfbc767c46375b07183ec741ed"
         }
       ]
     },
@@ -69,10 +69,10 @@
           "name": "resourceconfigapi-neoforge-1.20.5+1.0.0-sources.jar",
           "url": "resourceconfigapi-neoforge-1.20.5+1.0.0-sources.jar",
           "size": 181788,
-          "sha512": "59cb4f74a658b828a480eab4fa15074a7f9ba456e56822bb738edff2badce06545b1b2c5da01b923f0ae498b2bdbf5bbf399fb0c283d342b4e926bd1d3674867",
-          "sha256": "0350ed9cac179919cbf6027d9dfe3e35a299aa34ba2d85caf4ad891b1216a9d5",
-          "sha1": "ae38703793e503ee28c06525acaccf0e4fb66b93",
-          "md5": "9571b7b03b4020903d537630047a5595"
+          "sha512": "a48c090f488556307d78ab10b11c63994d39953744a7b4beb26c8b07781bc88591931d398126a109fbdcd01db9f7f72df8b2c39365e43e5088f3e8af91570468",
+          "sha256": "64494559edacfa32f06d378f0703d272be98264124d246f22767a094238e02a2",
+          "sha1": "721db5c5b610369e178f7f8ade867a420bd28517",
+          "md5": "08882d9f5c2a41b932d249e5a0f0ca34"
         }
       ]
     },
@@ -89,10 +89,10 @@
           "name": "resourceconfigapi-neoforge-1.20.5+1.0.0-javadoc.jar",
           "url": "resourceconfigapi-neoforge-1.20.5+1.0.0-javadoc.jar",
           "size": 173811,
-          "sha512": "c264159f9fea62bfe1ff6c5a46845bf4a89c70fd17d6a5eff4ebf1845abb8eda0a02ad5c11ebf00d088116781f52ff98dbdcb294406a5fce55a0089bb433482d",
-          "sha256": "eb567a337d42258183d8e215a67117cfb41f461b3df642a56bb39f102a086ee5",
-          "sha1": "d2cbf7b62ee07f208b1da0a84a3fd33a9b6546e7",
-          "md5": "c1f88ea0085fe15331c110e39c8f3720"
+          "sha512": "38e7113922f265ccea4e7c83e9aa7289ee45600f4b57112376995c9bae5de275244b6a7dc76dd70405597d5d52c3b59d181975ecf26acd180b87a0e8f187b06c",
+          "sha256": "790dd84420840c92ae71503a6e945e8d9645bd952f918d6ae80ee71c92eef096",
+          "sha1": "d30d9fea7cc249698c65398adb96f6704418ed43",
+          "md5": "66f0df7280022d6853ec7cd0197932bc"
         }
       ]
     }
