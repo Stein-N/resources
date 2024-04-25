@@ -1,0 +1,132 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourceconfigapi",
+    "module": "resourceconfigapi-fabric",
+    "version": "1.20.5-1.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.97.6+1.20.5"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.20.5-1.0.1.jar",
+          "url": "resourceconfigapi-fabric-1.20.5-1.0.1.jar",
+          "size": 437058,
+          "sha512": "05120a0910b3cb7d98c8c247557cfdf93338e2fa66978ed731454b8a5adff8c7f8220d9df60cc8aacc4e71a554ad6a6337e2a1e3787f74c1e7453e5ea6c0fdba",
+          "sha256": "49c7d5a23ca251893c2ca717f0f240b0de1da2aa7846e99504bd262eaa6da9c5",
+          "sha1": "84f25150693d381125bd08f946ab55721c06c00a",
+          "md5": "ac663429f5e85fdfbd97cc3817e75425"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.6.7"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.97.6+1.20.5"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.10"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.20.5-1.0.1.jar",
+          "url": "resourceconfigapi-fabric-1.20.5-1.0.1.jar",
+          "size": 437058,
+          "sha512": "05120a0910b3cb7d98c8c247557cfdf93338e2fa66978ed731454b8a5adff8c7f8220d9df60cc8aacc4e71a554ad6a6337e2a1e3787f74c1e7453e5ea6c0fdba",
+          "sha256": "49c7d5a23ca251893c2ca717f0f240b0de1da2aa7846e99504bd262eaa6da9c5",
+          "sha1": "84f25150693d381125bd08f946ab55721c06c00a",
+          "md5": "ac663429f5e85fdfbd97cc3817e75425"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.20.5-1.0.1-sources.jar",
+          "url": "resourceconfigapi-fabric-1.20.5-1.0.1-sources.jar",
+          "size": 185475,
+          "sha512": "7e5e112c9becf7db87b822abdc11b0d4d399efe35e863de9b6aeb0230cbe6f58f82347b2f4bbbb3741da38eb849cad3985fd261ce1a62b3abe6fd9617757cbcc",
+          "sha256": "3cd178fb56c9e4b7b994ce24471aacc5c55cecd81284077f859f91d7bbf811ed",
+          "sha1": "ec1ac794602e9ca47aba2f7aebc50dec575550bf",
+          "md5": "af1738c32821156ae2d3261f328749c6"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.20.5-1.0.1-javadoc.jar",
+          "url": "resourceconfigapi-fabric-1.20.5-1.0.1-javadoc.jar",
+          "size": 174231,
+          "sha512": "cbf88c56395657bdeab2e25039237bff95f34b6fa440f5c9a5d6159d68c71bb8c822d801eb74768ccc94058035306dce1ac27a7459114c3be96a75bebdf1a9ad",
+          "sha256": "fae068fc89ba97a18355449bcd97fd8f672fa2b1276e6d7544cb34f1ad9f1dad",
+          "sha1": "7b059af971bc9e20630c71200c194c5c5012593b",
+          "md5": "3aad3fd37d04a69e8f58f04e243e6d59"
+        }
+      ]
+    }
+  ]
+}
