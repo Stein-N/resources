@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.xstopho.resourceconfigapi</groupId>
+  <artifactId>resourceconfigapi-common</artifactId>
+  <version>1.21-2.0.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains</groupId>
+      <artifactId>annotations</artifactId>
+      <version>24.1.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.electronwill.night-config</groupId>
+      <artifactId>toml</artifactId>
+      <version>3.7.2</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+</project>
