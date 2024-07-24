@@ -1,0 +1,177 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourceconfigapi",
+    "module": "resourceconfigapi-neoforge",
+    "version": "1.21-2.1.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-neoforge-1.21-2.1.1.jar",
+          "url": "resourceconfigapi-neoforge-1.21-2.1.1.jar",
+          "size": 216770,
+          "sha512": "5290fe848e931add498510193ac20bfe335a0b50fec5085b4eeb70f9c74f37811045042630e5aaa3324e6ae31f56664e0945ed99b282b6d67d3a64e994ebe6c1",
+          "sha256": "f5fddc12ee64c2dd28d6d3dd2088e34f7d0f7d41351151013a7ffafca60cf6b2",
+          "sha1": "8febddb4d0fe39cdd4b9dd6e82de5b02382fad15",
+          "md5": "48cf50fd2ab9b726d8626fa1875047a4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge-1.21",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.1"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourceconfigapi-neoforge-1.21-2.1.1.jar",
+          "url": "resourceconfigapi-neoforge-1.21-2.1.1.jar",
+          "size": 216770,
+          "sha512": "5290fe848e931add498510193ac20bfe335a0b50fec5085b4eeb70f9c74f37811045042630e5aaa3324e6ae31f56664e0945ed99b282b6d67d3a64e994ebe6c1",
+          "sha256": "f5fddc12ee64c2dd28d6d3dd2088e34f7d0f7d41351151013a7ffafca60cf6b2",
+          "sha1": "8febddb4d0fe39cdd4b9dd6e82de5b02382fad15",
+          "md5": "48cf50fd2ab9b726d8626fa1875047a4"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge-1.21",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.1"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-neoforge-1.21-2.1.1-sources.jar",
+          "url": "resourceconfigapi-neoforge-1.21-2.1.1-sources.jar",
+          "size": 194680,
+          "sha512": "748f47bfb411bff621251961ae75e3cb6b25c5f24244523c01957f688003263669670ed1dc5ca294b17f6ffeb114c885ee0d33eaa550c8f32e38ce4ebc876409",
+          "sha256": "ab42afb8d095086ea57b0eb9606a9ecf83c633d426e86147232714dbf1d68134",
+          "sha1": "6ea93f3783f2f854cf628bf231332e8efa40edb6",
+          "md5": "86a7ed1812a0fdca5b8b9163a11e99ef"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge-1.21",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.1"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-neoforge-1.21-2.1.1-javadoc.jar",
+          "url": "resourceconfigapi-neoforge-1.21-2.1.1-javadoc.jar",
+          "size": 223620,
+          "sha512": "8b237e9c5f2903ac2fab250ae749ed76588c4cd240bef3d4866c60ebec4948ec7ff7de9f2404c1112c63e874af157baf35e22daca0eefce000334a6fbe371983",
+          "sha256": "76b018d1e4c965e4f374fb2e0c71a58d2b01982cf603ad44d4f801232131b3a0",
+          "sha1": "5d8e36a9ce40a64ee0946cb66a2f4359e973b6d7",
+          "md5": "4718e0f714abc58c89466cdf2c865304"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge-1.21",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-neoforge",
+          "version": "1.21-2.1.1"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.1"
+        }
+      ]
+    }
+  ]
+}
