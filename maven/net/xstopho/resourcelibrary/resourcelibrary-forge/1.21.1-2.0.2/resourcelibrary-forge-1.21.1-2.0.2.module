@@ -1,0 +1,185 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-forge",
+    "version": "1.21.1-2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-forge-1.21.1-2.0.2.jar",
+          "url": "resourcelibrary-forge-1.21.1-2.0.2.jar",
+          "size": 210082,
+          "sha512": "8ffb8980a515202eb1ef05deb5fe20763e81654964b6bc5d108bc8b3267a1e9bffcb1eee1eb9c0cd565934b92c5c987c8cb645fae062697b30cd47c168cf4689",
+          "sha256": "5f41d4f290a74c1ddccee7caeaf1e8a84c5a87441e2b154055056f42b9b3bdcb",
+          "sha1": "60e991ef749de9937039cf401eceda08c060c4f3",
+          "md5": "c05cd6fc2faf5e0451de81ca0e368f81"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "strictly": "5.0.4",
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.21.1-52.0.2_mapped_official_1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourcelibrary-forge-1.21.1-2.0.2.jar",
+          "url": "resourcelibrary-forge-1.21.1-2.0.2.jar",
+          "size": 210082,
+          "sha512": "8ffb8980a515202eb1ef05deb5fe20763e81654964b6bc5d108bc8b3267a1e9bffcb1eee1eb9c0cd565934b92c5c987c8cb645fae062697b30cd47c168cf4689",
+          "sha256": "5f41d4f290a74c1ddccee7caeaf1e8a84c5a87441e2b154055056f42b9b3bdcb",
+          "sha1": "60e991ef749de9937039cf401eceda08c060c4f3",
+          "md5": "c05cd6fc2faf5e0451de81ca0e368f81"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-forge-1.21.1-2.0.2-sources.jar",
+          "url": "resourcelibrary-forge-1.21.1-2.0.2-sources.jar",
+          "size": 186972,
+          "sha512": "5b07c106f8c8bbab5ec155b719e1e1b718cfe51d36811fc0c1536a74a15a7debc2fe01f56084f37ef6cc1ce8fb73da69396b5711f14a0c3204e9ef0a8f1baee2",
+          "sha256": "1e641b22356ac78c5fd2b879b035f7b87b51d7a963be9ce23d4767b1507acf01",
+          "sha1": "64375050ad15664552b3b7e117e1cc8ee68a307c",
+          "md5": "f125e4a541750d9aa01800980795f857"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-forge-1.21.1-2.0.2-javadoc.jar",
+          "url": "resourcelibrary-forge-1.21.1-2.0.2-javadoc.jar",
+          "size": 213072,
+          "sha512": "189339355f5c8200d557c9945ffe5af0290403d16cf98f243e64c6d38707c051d0db1572e3994662321a1e63286034ee235fc8b066884faa1607e3ad757bec36",
+          "sha256": "85f793e922c21772430090950c3903fa5f3fe53b7db8c6db4acf0aa63bdb1fc9",
+          "sha1": "ac0bf73266992fa621721896e44ca7d9e2353553",
+          "md5": "26168075d1d68eee5b6f9e8d856d82b7"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-forge",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    }
+  ]
+}
