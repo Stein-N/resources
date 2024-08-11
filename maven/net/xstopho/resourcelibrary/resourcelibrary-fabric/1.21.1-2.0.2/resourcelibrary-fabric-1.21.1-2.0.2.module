@@ -1,0 +1,193 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-fabric",
+    "version": "1.21.1-2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.0+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourcelibrary-fabric-1.21.1-2.0.2.jar",
+          "url": "resourcelibrary-fabric-1.21.1-2.0.2.jar",
+          "size": 208804,
+          "sha512": "6584f47038eb28ac612e4b15672e564ce8d2e66bc06588364f5a1faded43ebd87230c494e5781d3dab07e5b0e77a92a9e9f63ccfc5d4139dec7826bb411e2c8c",
+          "sha256": "732e832021a4f6dfe56281ab57a312e7dba02ebd80d021fbd91bb68ac2565f74",
+          "sha1": "03c48a4e95a13724df25d3574688ca6dba550065",
+          "md5": "417c23da4e67507c6aaa0e515842a47a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric-1.21.1",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.0+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.11"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourcelibrary-fabric-1.21.1-2.0.2.jar",
+          "url": "resourcelibrary-fabric-1.21.1-2.0.2.jar",
+          "size": 208804,
+          "sha512": "6584f47038eb28ac612e4b15672e564ce8d2e66bc06588364f5a1faded43ebd87230c494e5781d3dab07e5b0e77a92a9e9f63ccfc5d4139dec7826bb411e2c8c",
+          "sha256": "732e832021a4f6dfe56281ab57a312e7dba02ebd80d021fbd91bb68ac2565f74",
+          "sha1": "03c48a4e95a13724df25d3574688ca6dba550065",
+          "md5": "417c23da4e67507c6aaa0e515842a47a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric-1.21.1",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-fabric-1.21.1-2.0.2-sources.jar",
+          "url": "resourcelibrary-fabric-1.21.1-2.0.2-sources.jar",
+          "size": 192222,
+          "sha512": "b1a0512f1e16b72bb9012891e8eb6407f318bac021a06d54ed00ee2729fbba6a3b238570a0c883dad50d71a49fcb5e4d81e441c2207385bdc6452bc89bf47769",
+          "sha256": "3d6d3bad638eb3ffb83b5d6c69f7e5b47c62e4009b375f6204926e05e652867c",
+          "sha1": "b0e3d3412412a65d9509905d6806c923581f5323",
+          "md5": "bf8079f2ca004f3d2f085abd27f5e4fd"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric-1.21.1",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-fabric-1.21.1-2.0.2-javadoc.jar",
+          "url": "resourcelibrary-fabric-1.21.1-2.0.2-javadoc.jar",
+          "size": 209642,
+          "sha512": "48179de175bebee5285a328491ad06ee7c5e758c49723f17afe5c097d249987a02d1bd6777eb6fedf964009bd9e68a3e912cb4bd70a57cf9c897857f79995e91",
+          "sha256": "ffc6975c72196ce7f2569da78c67eb0fe4584820159641bc02cb441f8f36e746",
+          "sha1": "f822191bc79de7f9a8cde58ee725a7220694a05e",
+          "md5": "ae81a0b9c62f27313b9f95ed6856090a"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-fabric-1.21.1",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    }
+  ]
+}
