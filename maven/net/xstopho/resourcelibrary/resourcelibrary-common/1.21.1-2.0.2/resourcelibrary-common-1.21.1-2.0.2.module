@@ -1,0 +1,168 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-common",
+    "version": "1.21.1-2.0.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-common-1.21.1-2.0.2.jar",
+          "url": "resourcelibrary-common-1.21.1-2.0.2.jar",
+          "size": 196003,
+          "sha512": "4e69643c68a156af2e2dd053d45944e10261ab38fc6d92def5be88f754f495d7aec6ee523203beaec0e703de1d815f42b121de4171296836104c3ef5f7167784",
+          "sha256": "a1cc83878331c9949321c535ed0a6e0ad632ddfb625a480f6badb0b2be400026",
+          "sha1": "c0f6279918685d8414e9924cc0e41a76432f3bc1",
+          "md5": "a4e587e91a74b03d2a26e114dbf0bd95"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-common-1.21.1-2.0.2.jar",
+          "url": "resourcelibrary-common-1.21.1-2.0.2.jar",
+          "size": 196003,
+          "sha512": "4e69643c68a156af2e2dd053d45944e10261ab38fc6d92def5be88f754f495d7aec6ee523203beaec0e703de1d815f42b121de4171296836104c3ef5f7167784",
+          "sha256": "a1cc83878331c9949321c535ed0a6e0ad632ddfb625a480f6badb0b2be400026",
+          "sha1": "c0f6279918685d8414e9924cc0e41a76432f3bc1",
+          "md5": "a4e587e91a74b03d2a26e114dbf0bd95"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-common-1.21.1-2.0.2-sources.jar",
+          "url": "resourcelibrary-common-1.21.1-2.0.2-sources.jar",
+          "size": 181148,
+          "sha512": "a52ffe40b7003ca873e28cb250d64d651e21104a7958a7ff4183e9c639ac6242ee4e2671c7203395689bfbcc62f72be7eed7b54c55384417846f6e5565fd58c2",
+          "sha256": "e2b9e6b6d6160795254f7c41c4873dca65f9bfbf4be5f7c8b887573bfed8f867",
+          "sha1": "27c94ddcadb8f2c2cd01ab65f04b186d0958396c",
+          "md5": "9eb12b011a2e945f24997541cfda3535"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-common-1.21.1-2.0.2-javadoc.jar",
+          "url": "resourcelibrary-common-1.21.1-2.0.2-javadoc.jar",
+          "size": 190275,
+          "sha512": "ea2ca66d7f3c69325d077155e229106379d17ff3be79e021632ba897bd2633a074d9ce7794336fdf4414a1b6a2d881d5c2a4ab56f814351fcce6a4f5f7e7f6ec",
+          "sha256": "ade136721a89e48ead4fffe3a7e5178eb54e602e8682e2e5291e9e1b540c6d15",
+          "sha1": "f67ca6ce1e5982c1f9359de806b9545021adf70f",
+          "md5": "88280f8b8215ff716a1463afd551d0e8"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common-1.21.1",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary",
+          "version": "1.21.1-2.0.2"
+        },
+        {
+          "group": "net.xstopho.resourcelibrary",
+          "name": "resourcelibrary-common",
+          "version": "1.21.1-2.0.2"
+        }
+      ]
+    }
+  ]
+}
