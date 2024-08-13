@@ -1,0 +1,184 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourceconfigapi",
+    "module": "resourceconfigapi-common",
+    "version": "1.21-2.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-common-1.21-2.1.3.jar",
+          "url": "resourceconfigapi-common-1.21-2.1.3.jar",
+          "size": 196502,
+          "sha512": "d2c8b20e74cfb1c25828a53462035e53db1e879884db543d621e50d6f3958b72fae21d0ac56f6ebb241ca4440eec63015c010c18ae583574e8515c1ca997e6d2",
+          "sha256": "c6bf6ff87f8a0c65a753aa522407e331dc22c7524616768812998b50299eefb9",
+          "sha1": "0832afb89258ce10b5bf0505ff4c09f77f009e5f",
+          "md5": "afa36a342f5eff95cc7f9fd975eec15b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common-1.21.1",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourceconfigapi-common-1.21-2.1.3.jar",
+          "url": "resourceconfigapi-common-1.21-2.1.3.jar",
+          "size": 196502,
+          "sha512": "d2c8b20e74cfb1c25828a53462035e53db1e879884db543d621e50d6f3958b72fae21d0ac56f6ebb241ca4440eec63015c010c18ae583574e8515c1ca997e6d2",
+          "sha256": "c6bf6ff87f8a0c65a753aa522407e331dc22c7524616768812998b50299eefb9",
+          "sha1": "0832afb89258ce10b5bf0505ff4c09f77f009e5f",
+          "md5": "afa36a342f5eff95cc7f9fd975eec15b"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common-1.21.1",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-common-1.21-2.1.3-sources.jar",
+          "url": "resourceconfigapi-common-1.21-2.1.3-sources.jar",
+          "size": 185025,
+          "sha512": "9acb8824793950e7d00c6dfed15402f8c79f95a419f0f4fc82ae5fb31e7bf03258279bed68334eb4ec1f49373c2d7b37944edd84c6aa91677dc216354dbcd0c4",
+          "sha256": "e8286a97f489d76c9685682c15046eeca14166c8486ddd8e98fefa452b9d4ca1",
+          "sha1": "3805cdca361dac0941b82c2d1ab20b3f0b90eab1",
+          "md5": "d8c6e06f5d9728240e3d7381387b3a82"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common-1.21.1",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-common-1.21-2.1.3-javadoc.jar",
+          "url": "resourceconfigapi-common-1.21-2.1.3-javadoc.jar",
+          "size": 169899,
+          "sha512": "9e126f77f5551aa8105a4aa66d729706572eca33ac5c47d30bdfec35756f8f8baf6adb4603fb5648b93e3ea3a6a9ecfc452250ce1351a622d251c8ad9db5a7ee",
+          "sha256": "adabc00c40a9a9c1a576f2092478c6792b3f00c1d09106e667eb609a78b29798",
+          "sha1": "a73f2ab8966ba570ea4a6148c62539d2dc7f5dd0",
+          "md5": "494de4b5c7c03d19bd5e6ba8bc849ec0"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-common-1.21.1",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    }
+  ]
+}
