@@ -27,11 +27,11 @@
         {
           "name": "resourceconfigapi-neoforge-1.21-2.1.2.jar",
           "url": "resourceconfigapi-neoforge-1.21-2.1.2.jar",
-          "size": 214110,
-          "sha512": "72d7daab1364a739c8edbb7ef30e043076ac6483741747e2ac4711af47d30cb8bf9d5d695fc3b9db531a3e96127d0f6c60658c9b2153c8987eb80c749b5e7bc9",
-          "sha256": "3ffc1e82330cce96b91af9c3abbec00876a4efa9775d738197aeab4078af816c",
-          "sha1": "6452d2dfd9e7c727b22cf4509841e02ebc31c870",
-          "md5": "569253f230e59dfb1556f34f1834b56f"
+          "size": 214089,
+          "sha512": "a8015534bbf3afbf4b172b1504af80c8ae8e54b9f2da1558569337acff4f3c3573730d4a34e8ba069f107f50cbc99906fdeecebcac72a4196896e944d14270a2",
+          "sha256": "148c2397aa3bdae73204529464d0364a4392ca9a87d82fa15f685ac2739cd0c8",
+          "sha1": "9e5f38b71832bc8afc6feca3ef20bb0cc0a577fc",
+          "md5": "b62572ad00acd3df82ac2852ea5bf41b"
         }
       ],
       "capabilities": [
@@ -74,11 +74,11 @@
         {
           "name": "resourceconfigapi-neoforge-1.21-2.1.2.jar",
           "url": "resourceconfigapi-neoforge-1.21-2.1.2.jar",
-          "size": 214110,
-          "sha512": "72d7daab1364a739c8edbb7ef30e043076ac6483741747e2ac4711af47d30cb8bf9d5d695fc3b9db531a3e96127d0f6c60658c9b2153c8987eb80c749b5e7bc9",
-          "sha256": "3ffc1e82330cce96b91af9c3abbec00876a4efa9775d738197aeab4078af816c",
-          "sha1": "6452d2dfd9e7c727b22cf4509841e02ebc31c870",
-          "md5": "569253f230e59dfb1556f34f1834b56f"
+          "size": 214089,
+          "sha512": "a8015534bbf3afbf4b172b1504af80c8ae8e54b9f2da1558569337acff4f3c3573730d4a34e8ba069f107f50cbc99906fdeecebcac72a4196896e944d14270a2",
+          "sha256": "148c2397aa3bdae73204529464d0364a4392ca9a87d82fa15f685ac2739cd0c8",
+          "sha1": "9e5f38b71832bc8afc6feca3ef20bb0cc0a577fc",
+          "md5": "b62572ad00acd3df82ac2852ea5bf41b"
         }
       ],
       "capabilities": [
@@ -111,11 +111,11 @@
         {
           "name": "resourceconfigapi-neoforge-1.21-2.1.2-sources.jar",
           "url": "resourceconfigapi-neoforge-1.21-2.1.2-sources.jar",
-          "size": 193031,
-          "sha512": "6cfd65aae2e310af4fa5e707bec04d2589125cc9be4fbbd4018fab40b9f12b93a7bf91aa87bade3e3e304b85b8a010d6a1541de751bcded7501181205e6ce392",
-          "sha256": "95d66345f2bca912ff0cf61e46d7b37368f72362dc093b55cdd1d863d3b6338b",
-          "sha1": "56125e2287d3112298a216182d28b93f67e16ec9",
-          "md5": "3621a772182e2931785a5d7f354be917"
+          "size": 193009,
+          "sha512": "b450739e85faccae0b15ba77606296653c02191177c9c7a3260dc52c0a1cbde350b581bbd70ee42721eddbc8d3ec341e0aae3c796674f236777933605795ff94",
+          "sha256": "216a9ee1ef7a26c48a01d168f865380405298437167dc314f7997bd57e9bdb66",
+          "sha1": "aaa42dd18c5d8f81006c9cf1c47fdf20b0eb2f13",
+          "md5": "e72b854acd738bbf7ec92ee82b15d1fa"
         }
       ],
       "capabilities": [
