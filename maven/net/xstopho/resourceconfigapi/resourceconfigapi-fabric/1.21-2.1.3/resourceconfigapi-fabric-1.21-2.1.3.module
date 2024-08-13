@@ -1,0 +1,214 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourceconfigapi",
+    "module": "resourceconfigapi-fabric",
+    "version": "1.21-2.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.1+1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.21-2.1.3.jar",
+          "url": "resourceconfigapi-fabric-1.21-2.1.3.jar",
+          "size": 632276,
+          "sha512": "4da68d2242c0b68417512ca2c83e8d34f2cd36b48c9efc1aa1e32a27f7a45aaf9a7d74c56233536f08587ebb446611307ff7220c41521c75288f0935b23fc21b",
+          "sha256": "83e9957950f790cdc0fadf5f0d35d5edbd18fd6ff6ccd60d0102964cfe03b18a",
+          "sha1": "8eba3872e8b39d0d4ac97e36b51d21f482845448",
+          "md5": "f4ba2b3f9719ef51dcc98daff1653c59"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "com.electronwill.night-config",
+          "module": "toml",
+          "version": {
+            "requires": "3.8.0"
+          }
+        },
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.102.1+1.21.1"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.15.11"
+          }
+        },
+        {
+          "group": "com.terraformersmc",
+          "module": "modmenu",
+          "version": {
+            "requires": "11.0.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.21-2.1.3.jar",
+          "url": "resourceconfigapi-fabric-1.21-2.1.3.jar",
+          "size": 632276,
+          "sha512": "4da68d2242c0b68417512ca2c83e8d34f2cd36b48c9efc1aa1e32a27f7a45aaf9a7d74c56233536f08587ebb446611307ff7220c41521c75288f0935b23fc21b",
+          "sha256": "83e9957950f790cdc0fadf5f0d35d5edbd18fd6ff6ccd60d0102964cfe03b18a",
+          "sha1": "8eba3872e8b39d0d4ac97e36b51d21f482845448",
+          "md5": "f4ba2b3f9719ef51dcc98daff1653c59"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.21-2.1.3-sources.jar",
+          "url": "resourceconfigapi-fabric-1.21-2.1.3-sources.jar",
+          "size": 196430,
+          "sha512": "bfbe0b1400a82d237b4cdf62e52667853a93b12b77856f3dd82a77e7fce2e96b92092f5e4ec7a472d5fe61abc44eb0afe6002e03080d8952b1c31a604cc634e2",
+          "sha256": "29d95c5345757dbc808f64ab07f0cd4ecf35ab805807906d5774dde9f556b7da",
+          "sha1": "e4ffd47ce5d5671da3ac60a6eca469dc33ae5731",
+          "md5": "09f336ff580c6180607df0356e9e31dd"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-fabric-1.21-2.1.3-javadoc.jar",
+          "url": "resourceconfigapi-fabric-1.21-2.1.3-javadoc.jar",
+          "size": 207111,
+          "sha512": "e205b7e02a3d19f1a4249079b352a668f1a8a48afda7c7a5f659a427bc30fdd2c8cd7bcda6a507e0c3aecc5e9402a9374bb4b067086b011aa8669a698aacab2e",
+          "sha256": "c8c4e1baa805b3fbb5de57f4536eb41a73585dfe5d8958d4640e31eb455ecc79",
+          "sha1": "9c3b1240bd91367a3c07a66be30ef20362fa2384",
+          "md5": "7397619853a78fa2ab58f8ecc4a2a850"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-fabric",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    }
+  ]
+}
