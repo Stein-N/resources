@@ -1,0 +1,192 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourceconfigapi",
+    "module": "resourceconfigapi-forge",
+    "version": "1.21-2.1.3",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.8"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-forge-1.21-2.1.3.jar",
+          "url": "resourceconfigapi-forge-1.21-2.1.3.jar",
+          "size": 212044,
+          "sha512": "b172520051ac40c7cb1a768bd412716c4c3586fc594d01b0cabcd807b001f2d319468452631a18d67588e494f523706a085cc6757feb9928d46e7db0c2b496f7",
+          "sha256": "1d82dc01862d0b718c119d1b07ff3c18512d8a71659218efda29667161755429",
+          "sha1": "7661d046d7e86052030280adaeadea9d478f0470",
+          "md5": "f6765a50ccb97401bf187918515f3d6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.1.0"
+          }
+        },
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "strictly": "5.0.4",
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.21.1-52.0.2_mapped_official_1.21.1"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourceconfigapi-forge-1.21-2.1.3.jar",
+          "url": "resourceconfigapi-forge-1.21-2.1.3.jar",
+          "size": 212044,
+          "sha512": "b172520051ac40c7cb1a768bd412716c4c3586fc594d01b0cabcd807b001f2d319468452631a18d67588e494f523706a085cc6757feb9928d46e7db0c2b496f7",
+          "sha256": "1d82dc01862d0b718c119d1b07ff3c18512d8a71659218efda29667161755429",
+          "sha1": "7661d046d7e86052030280adaeadea9d478f0470",
+          "md5": "f6765a50ccb97401bf187918515f3d6d"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-forge-1.21-2.1.3-sources.jar",
+          "url": "resourceconfigapi-forge-1.21-2.1.3-sources.jar",
+          "size": 192412,
+          "sha512": "673639d2d6bc99eb8006ae3d0d6e54b4b8f4cb55a20486a97039b8edd7b80d21c19d013bea960ed8ee7abea3c10b201dddeece26c176c3229310a15a0d8a9684",
+          "sha256": "a592b7be00e68449c886ec46b2a0ebe9c3ab35c11bca84c43ed9bf60f6082323",
+          "sha1": "7f224c0fa8e940bec82c83de6143bc76caa109cb",
+          "md5": "90085de30cad73fabd3536c9977231ce"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourceconfigapi-forge-1.21-2.1.3-javadoc.jar",
+          "url": "resourceconfigapi-forge-1.21-2.1.3-javadoc.jar",
+          "size": 203519,
+          "sha512": "2f67fb6144a13304ebf03143bfc79300705e49bbb1a41b8a56658ac619b372aea177a8eae68042576572838d7685e17a92c604d1b13e3e40c11ee99d08335ed0",
+          "sha256": "2d57c15d6f63bd49f49ef1a30aa5e5723ccf86b3134e1b5c4f2fd011a60f26b8",
+          "sha1": "8a6065f3d3eb10b07042ce6baaf4b5c4922d12a8",
+          "md5": "f3e748a0a4760a587be92f46e5ba3ddc"
+        }
+      ],
+      "capabilities": [
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge-1.21.1",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi-forge",
+          "version": "1.21-2.1.3"
+        },
+        {
+          "group": "net.xstopho.resourceconfigapi",
+          "name": "resourceconfigapi",
+          "version": "1.21-2.1.3"
+        }
+      ]
+    }
+  ]
+}
