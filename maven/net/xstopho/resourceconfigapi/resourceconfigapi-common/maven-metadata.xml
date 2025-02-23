@@ -3,8 +3,8 @@
   <groupId>net.xstopho.resourceconfigapi</groupId>
   <artifactId>resourceconfigapi-common</artifactId>
   <versioning>
-    <latest>3.3.3</latest>
-    <release>3.3.3</release>
+    <latest>1.21.1-3.5.0</latest>
+    <release>1.21.1-3.5.0</release>
     <versions>
       <version>1.20.5+1.0.0</version>
       <version>1.20.5-1.0.1</version>
@@ -28,7 +28,8 @@
       <version>3.1.3</version>
       <version>3.4.3</version>
       <version>3.3.3</version>
+      <version>1.21.1-3.5.0</version>
     </versions>
-    <lastUpdated>20250104183458</lastUpdated>
+    <lastUpdated>20250223200604</lastUpdated>
   </versioning>
 </metadata>
