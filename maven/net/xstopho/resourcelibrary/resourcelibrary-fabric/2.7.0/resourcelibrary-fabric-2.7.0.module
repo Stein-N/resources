@@ -1,0 +1,85 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-fabric",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.129.0+1.21.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourcelibrary-fabric-2.7.0.jar",
+          "url": "resourcelibrary-fabric-2.7.0.jar",
+          "size": 199219,
+          "sha512": "f5651b982f96a5e3da366e369c522d64ca0902499a605d94bd313b559ba6ce2a7ccedd8d32efc2921ff97b1467c18e3e630669b6b9978b912a8903e11c31fd7b",
+          "sha256": "38f2eb4a694c815abbee7ac08551d4b0e4e839814710ac52f01547f34bf70619",
+          "sha1": "c266e28ad420c12f2aa1bf3bf71721cdb14d1908",
+          "md5": "9ad4bec7f03fc4c59986899de5f9586c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.fabricmc.fabric-api",
+          "module": "fabric-api",
+          "version": {
+            "requires": "0.129.0+1.21.8"
+          }
+        },
+        {
+          "group": "net.fabricmc",
+          "module": "fabric-loader",
+          "version": {
+            "requires": "0.16.14"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourcelibrary-fabric-2.7.0.jar",
+          "url": "resourcelibrary-fabric-2.7.0.jar",
+          "size": 199219,
+          "sha512": "f5651b982f96a5e3da366e369c522d64ca0902499a605d94bd313b559ba6ce2a7ccedd8d32efc2921ff97b1467c18e3e630669b6b9978b912a8903e11c31fd7b",
+          "sha256": "38f2eb4a694c815abbee7ac08551d4b0e4e839814710ac52f01547f34bf70619",
+          "sha1": "c266e28ad420c12f2aa1bf3bf71721cdb14d1908",
+          "md5": "9ad4bec7f03fc4c59986899de5f9586c"
+        }
+      ]
+    }
+  ]
+}
