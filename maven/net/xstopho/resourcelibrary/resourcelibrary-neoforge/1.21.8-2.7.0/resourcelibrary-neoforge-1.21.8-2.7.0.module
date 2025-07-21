@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-neoforge",
+    "version": "1.21.8-2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-neoforge-1.21.8-2.7.0.jar",
+          "url": "resourcelibrary-neoforge-1.21.8-2.7.0.jar",
+          "size": 201550,
+          "sha512": "63fe66eacf7d38ec51087433ed8df0b3e8ce998bb1912ac511009b6d666985f98f91fe7aae263b9dac80369066e8c75b2bda8b785f83225e006ea7438467bac2",
+          "sha256": "a6faea6c5551aaa424b6c490342292bacef420b1a0da30f346dc846907e97460",
+          "sha1": "23ff422bfe9537b309d26f9b0906f249d543c03c",
+          "md5": "c59865ec9958e8261f7a627df63e349c"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-neoforge-1.21.8-2.7.0.jar",
+          "url": "resourcelibrary-neoforge-1.21.8-2.7.0.jar",
+          "size": 201550,
+          "sha512": "63fe66eacf7d38ec51087433ed8df0b3e8ce998bb1912ac511009b6d666985f98f91fe7aae263b9dac80369066e8c75b2bda8b785f83225e006ea7438467bac2",
+          "sha256": "a6faea6c5551aaa424b6c490342292bacef420b1a0da30f346dc846907e97460",
+          "sha1": "23ff422bfe9537b309d26f9b0906f249d543c03c",
+          "md5": "c59865ec9958e8261f7a627df63e349c"
+        }
+      ]
+    }
+  ]
+}
