@@ -3,8 +3,8 @@
   <groupId>net.xstopho.resourceconfigapi</groupId>
   <artifactId>resourceconfigapi-forge</artifactId>
   <versioning>
-    <latest>1.21.7-3.7.3</latest>
-    <release>1.21.7-3.7.3</release>
+    <latest>1.21.8-unspecified</latest>
+    <release>1.21.8-unspecified</release>
     <versions>
       <version>1.20-1.1.0</version>
       <version>1.21-2.0.0</version>
@@ -60,7 +60,8 @@
       <version>1.21.4-3.7.3</version>
       <version>1.21.5-3.7.3</version>
       <version>1.21.7-3.7.3</version>
+      <version>1.21.8-unspecified</version>
     </versions>
-    <lastUpdated>20250709172719</lastUpdated>
+    <lastUpdated>20250721185155</lastUpdated>
   </versioning>
 </metadata>
