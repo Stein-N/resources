@@ -1,0 +1,60 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-neoforge",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-neoforge-2.7.0.jar",
+          "url": "resourcelibrary-neoforge-2.7.0.jar",
+          "size": 201544,
+          "sha512": "375938a19a676544baaeece06d3b218986f725b5bb2fc5bb19ebfbe348fe8681ecd202e6b41910ee97e1d687806404c9e119b10f65eb9800745744f4faefd0a2",
+          "sha256": "65197ba0b27c9144d26146b9150d6d3d94ea9bc13a26935dbeb7dbb02bbec7d7",
+          "sha1": "3189dec798c4d9284230da7c8d36ab8e9e709134",
+          "md5": "eecd1f54b2009874e511a0f13f1c3c76"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-neoforge-2.7.0.jar",
+          "url": "resourcelibrary-neoforge-2.7.0.jar",
+          "size": 201544,
+          "sha512": "375938a19a676544baaeece06d3b218986f725b5bb2fc5bb19ebfbe348fe8681ecd202e6b41910ee97e1d687806404c9e119b10f65eb9800745744f4faefd0a2",
+          "sha256": "65197ba0b27c9144d26146b9150d6d3d94ea9bc13a26935dbeb7dbb02bbec7d7",
+          "sha1": "3189dec798c4d9284230da7c8d36ab8e9e709134",
+          "md5": "eecd1f54b2009874e511a0f13f1c3c76"
+        }
+      ]
+    }
+  ]
+}
