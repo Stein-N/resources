@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-forge",
+    "version": "1.21.8-2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-forge-1.21.8-2.7.0.jar",
+          "url": "resourcelibrary-forge-1.21.8-2.7.0.jar",
+          "size": 203903,
+          "sha512": "ff7689c6a86b2bd952d74709d6decca28fc558eb109bb96e9d02a0525fcf024ccd417058c38f7658061f850d844ae969387cec59784453ae206976fb89eebd4f",
+          "sha256": "88d31ee2a6890f5542909cf39b85eb6d58ede1426ae6e2c28f2e87386efcd90a",
+          "sha1": "bb67379b303215557efe668a5ad05a722cf38b10",
+          "md5": "c07d8b0983c03b7307d122e2cf455ecf"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "strictly": "5.0.4",
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.21.8-58.0.0_mapped_official_1.21.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourcelibrary-forge-1.21.8-2.7.0.jar",
+          "url": "resourcelibrary-forge-1.21.8-2.7.0.jar",
+          "size": 203903,
+          "sha512": "ff7689c6a86b2bd952d74709d6decca28fc558eb109bb96e9d02a0525fcf024ccd417058c38f7658061f850d844ae969387cec59784453ae206976fb89eebd4f",
+          "sha256": "88d31ee2a6890f5542909cf39b85eb6d58ede1426ae6e2c28f2e87386efcd90a",
+          "sha1": "bb67379b303215557efe668a5ad05a722cf38b10",
+          "md5": "c07d8b0983c03b7307d122e2cf455ecf"
+        }
+      ]
+    }
+  ]
+}
