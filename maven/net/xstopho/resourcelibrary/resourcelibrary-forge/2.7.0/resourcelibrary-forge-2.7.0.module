@@ -1,0 +1,77 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.xstopho.resourcelibrary",
+    "module": "resourcelibrary-forge",
+    "version": "2.7.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "resourcelibrary-forge-2.7.0.jar",
+          "url": "resourcelibrary-forge-2.7.0.jar",
+          "size": 203898,
+          "sha512": "223ce2aea674c9b09fa901d4dfb863ff8b7c4b467c962cfb27b6625d59a524672e218c8ec601c9e9ba0e116d899150d675268ebb8297d12428e1d407546a82a4",
+          "sha256": "c0975a652350ff5778559918a6383fd36601d86749ee4a8bae6b600e198afe5e",
+          "sha1": "7ebeed6a46da25b72a2240ba1943a9026da2ce81",
+          "md5": "414e78bd7494c2d1ebee22791ccd6810"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 21,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "net.sf.jopt-simple",
+          "module": "jopt-simple",
+          "version": {
+            "strictly": "5.0.4",
+            "requires": "5.0.4"
+          }
+        },
+        {
+          "group": "net.minecraftforge",
+          "module": "forge",
+          "version": {
+            "requires": "1.21.8-58.0.0_mapped_official_1.21.8"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "resourcelibrary-forge-2.7.0.jar",
+          "url": "resourcelibrary-forge-2.7.0.jar",
+          "size": 203898,
+          "sha512": "223ce2aea674c9b09fa901d4dfb863ff8b7c4b467c962cfb27b6625d59a524672e218c8ec601c9e9ba0e116d899150d675268ebb8297d12428e1d407546a82a4",
+          "sha256": "c0975a652350ff5778559918a6383fd36601d86749ee4a8bae6b600e198afe5e",
+          "sha1": "7ebeed6a46da25b72a2240ba1943a9026da2ce81",
+          "md5": "414e78bd7494c2d1ebee22791ccd6810"
+        }
+      ]
+    }
+  ]
+}
